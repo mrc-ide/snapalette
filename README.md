@@ -134,7 +134,9 @@ ggplot(mtcars, aes(factor(cyl), fill=factor(gear))) +  geom_bar() +
 scale_fill_manual(values =snapalette("Barcelona"))
 ```
 
-![](figure/ggplot-1.png) \#\#\# Fjord
+![](figure/ggplot-1.png)
+
+### Fjord
 
 ``` r
 snapalette("Fjord")
