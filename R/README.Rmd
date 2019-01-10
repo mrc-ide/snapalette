@@ -1,0 +1,156 @@
+---
+  output:
+  md_document:
+  variant: markdown_github
+---
+  
+  ```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "figure/",
+  fig.height = 1
+)
+```
+
+Here are some pallettes I have made from my own holiday snaps. This is based on the excellent wespalette package and is for personal use only.
+
+## Installation
+
+
+## Usage
+
+```{r, palettes_dummy}
+library("snapalette")
+# See all palettes
+names(snapalettes)
+```
+
+## Palettes
+
+### Mosaic from Fiocruz
+
+```{r, mosaic}
+snapalette("Mosaic")
+```
+
+### EspiritoSanta
+
+```{r, espirito}
+snapalette("EspiritoSanta")
+```
+
+### Street art
+
+```{r, royal}
+snapalette("ST_art")
+```
+
+
+### Discovery Suites
+
+```{r, discovery}
+snapalette("DiscoverySuites")
+```
+
+
+### Ipanama sunset
+
+```{r, sunset}
+snapalette("IpanemaSunset")
+```
+
+### Orchid
+
+```{r, orchid}
+snapalette("Orchid")
+```
+
+### Greek cave house
+
+```{r, Cave}
+snapalette("CaveHouse")
+```
+
+### Kalypso
+
+```{r, Kalypso}
+snapalette("Kalypso")
+```
+
+```{r, volcano, fig.height = 5}
+pal <- snapalette("Kalypso", 21, type = "continuous")
+image(volcano, col = rev(pal))
+```
+
+### ThiraJazz
+
+```{r, jazz}
+snapalette("ThiraJazz")
+```
+
+### Camden
+
+```{r, Camden}
+snapalette("Camden")
+```
+
+### Venice
+
+```{r, venice}
+snapalette("Venice")
+```
+
+### Barcelona
+
+```{r, Barcelona}
+snapalette("Barcelona")
+```
+
+```{r ggplot, fig.height=5}
+library("ggplot2")
+ggplot(mtcars, aes(factor(cyl), fill=factor(gear))) +  geom_bar() +
+scale_fill_manual(values =snapalette("Barcelona"))
+
+```
+### Fjord
+
+```{r, fjord}
+snapalette("Fjord")
+```
+
+### Stavanger
+
+```{r, stavanger}
+snapalette("Stavanger")
+```
+
+### Sweet Shop
+
+```{r, sweetshop}
+snapalette("SweetShop")
+```
+
+### Wales
+
+```{r, wales}
+snapalette("Wales")
+```
+
+### Szimpla Kert
+
+```{r, szimpla}
+snapalette("SzimplaKert")
+```
+
+### Budapest Citadel
+
+```{r, citadel}
+snapalette("BudapestCitadel")
+```
+
+### Ipanama
+
+```{r, ipanema}
+snapalette("Ipanema")
+```

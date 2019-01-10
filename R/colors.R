@@ -4,9 +4,9 @@
 #'
 #' @export
 snapalettes <- list(
-  mosaic = c("#204D8C", "#35648C", "#D9B777", "#BF9765", "#732720"),
+  Mosaic = c("#204D8C", "#35648C", "#D9B777", "#BF9765", "#732720"),
   EspiritoSanta = c("#599DD9", "#24897E", "#F2D8A7", "#F2B035", "#F27649"),
-  STA_rt = c("#5C5F73", "#2D3340", "#664830", "#F6A894", "#FFFEE9"),
+  ST_art = c("#5C5F73", "#2D3340", "#664830", "#F6A894", "#FFFEE9"),
   DiscoverySuites = c("#CEDEF2", "#0B8C8C", "#025959", "#D98E04", "#D97904"),
   IpanemaSunset = c("#F2E96B", "#F2D06B", "#F2BC8C", "#D99379", "#F26430"),
   Orchid = c("#730217", "#A6033F", "#4F7302", "#D9A13B", "#D95F18"),
@@ -20,7 +20,7 @@ snapalettes <- list(
   Stavanger = c("#5274D9", "#F2CB05", "#D95204", "#A62103", "#400101"),
   SweetShop = c("#F2507B", "#1D4B73", "#BFB965", "#BF8E34", "#730707"),
   Wales = c("#BFA3A3", "#F2E8Dc", "#484F66", "#A65C37", "#734040"),
-  SzimpleKert = c("#265902", "#F2AE2E", "#F27507", "#732C02", "#F23005"),
+  SzimplaKert = c("#265902", "#F2AE2E", "#F27507", "#732C02", "#F23005"),
   BudapestCitadel = c("#6F8ABF", "#D9C8B4", "#D99559", "#BF4E24", "#A63117"),
   Ipanema = c("#1F5AA6", "#72B6F2", "#88C9F2", "#F2CB05", "#734002")
 )
