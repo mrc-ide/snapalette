@@ -1,7 +1,7 @@
 ---
   output:
-  md_document:
-  variant: markdown_github
+    md_document:
+      variant: markdown_github
 ---
   
   ```{r, echo = FALSE}
@@ -12,6 +12,7 @@ knitr::opts_chunk$set(
   fig.height = 1
 )
 ```
+# Holiday snap palettes
 
 Here are some pallettes I have made from my own holiday snaps. This is based on the excellent wespalette package and is for personal use only.
 
