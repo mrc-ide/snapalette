@@ -4,8 +4,8 @@
       variant: markdown_github
 ---
   
-  ```{r, echo = FALSE}
-knitr::opts_chunk$set(
+```{r, echo = FALSE}
+knitr::opts_chunk$set(warning = FALSE,
   collapse = TRUE,
   comment = "#>",
   fig.path = "figure/",
@@ -18,6 +18,9 @@ Here are some pallettes I have made from my own holiday snaps. This is based on 
 
 ## Installation
 
+```{r, eval = FALSE}
+remotes::install_github("mrc-ide/snapalette")
+```
 
 ## Usage
 

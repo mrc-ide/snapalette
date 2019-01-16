@@ -6,6 +6,10 @@ Here are some pallettes I have made from my own holiday snaps. This is based on 
 Installation
 ------------
 
+``` r
+remotes::install_github("mrc-ide/snapalette")
+```
+
 Usage
 -----
 
