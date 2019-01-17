@@ -16,13 +16,16 @@ snap2palette = function(path,
                         plot_palette = TRUE){
   
   #check loading a png
-  if(file_ext(path) != "png"){
-    stop("path does not lead to a .png")
+  if(file_ext(path) != "png" & file_ext(path) != "jpg"){
+    stop("path does not lead to a .png or .jpg")
   }
   
   #import file
-  snap = readPNG(path)
-  
+  if(file_ext(path) == "png"){
+    snap = readPNG(path)
+  } else {
+    snap = readJPEG(path)
+  }
   #split and average into n colours
   # reshape image into a data frame
   df = data.frame(
@@ -34,7 +37,7 @@ snap2palette = function(path,
   # compute the k-means clustering
   K = kmeans(df,n)
   
-
+  
   
   #make new snapalette
   ## get hex
