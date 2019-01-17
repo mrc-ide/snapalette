@@ -4,7 +4,7 @@
 \alias{print.palette}
 \title{function for showing palettes}
 \usage{
-\method{print}{palette}(x, ...)
+\method{print}{palette}(x)
 }
 \arguments{
 \item{x}{palette}

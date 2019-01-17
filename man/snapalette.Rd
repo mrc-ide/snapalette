@@ -4,8 +4,7 @@
 \name{snapalette}
 \alias{snapalette}
 \alias{snapalette-package}
-\title{A palette generator from my holiday snaps
-Based on the wesanderson package}
+\title{A palette generator from my holiday snaps}
 \usage{
 snapalette(name, n, type = c("discrete", "continuous"))
 }
@@ -26,5 +25,8 @@ list of palettes from my holiday snaps
 }
 \details{
 list of palettes from my holiday snaps
+}
+\references{
+https://github.com/karthik/wesanderson
 }
 \keyword{colors}

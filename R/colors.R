@@ -27,7 +27,7 @@ snapalettes <- list(
 
 
 #' A palette generator from my holiday snaps
-#' Based on the wesanderson package
+#' @references https://github.com/karthik/wesanderson
 #'
 #' @param n Number of colors desired. 
 #' @param name Name of desired palette. Choices are:
