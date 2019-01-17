@@ -37,7 +37,6 @@ snapalettes <- list(
 #' @return A vector of colours.
 #' @export
 #' @keywords colors
-#' @examples
 snapalette <- function(name, n, type = c("discrete", "continuous")) {
   type <- match.arg(type)
   
@@ -60,10 +59,11 @@ snapalette <- function(name, n, type = c("discrete", "continuous")) {
   structure(out, class = "palette", name = name)
 }
 
+#' function for showing palettes
+#' @param x palette
+#' 
 #' @export
-#' @importFrom graphics rect par image text
-#' @importFrom grDevices rgb
-print.palette <- function(x, ...) {
+print.palette <- function(x) {
   n <- length(x)
   old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
   on.exit(par(old))
