@@ -45,12 +45,13 @@ snap2palette = function(path,
                                 b = as.integer(K$centers[i,3]*255))
   }
   
-  names(new_snapalette) = "new_snapalette"
   
   #plot palette or not
   if(plot_palette){
     plot.new()
-    print.palette(new_snapalette)
+    tmp = new_snapalette
+    names(tmp) = "new_snapalette"
+    print.palette(tmp)
   }
   
   #plot picture or not
