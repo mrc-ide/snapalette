@@ -195,3 +195,8 @@ snapalette("Ipanema")
 ```
 
 ![](figure/ipanema-1.png)
+
+Make your own palette
+---------------------
+
+If you have your own holiday snap that would make a great palette, you can use `snap2palette`. This takes a path to a png and produces a palette from that picture.

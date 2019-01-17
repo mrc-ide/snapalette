@@ -34,6 +34,25 @@ snap2palette = function(path,
   # compute the k-means clustering
   K = kmeans(df,n)
   
+
+  
+  #make new snapalette
+  ## get hex
+  new_snapalette = rep(NA, n)
+  for(i in 1:n){
+    new_snapalette[i] = rgb2hex(r = as.integer(K$centers[i,1]*255), 
+                                g = as.integer(K$centers[i,2]*255), 
+                                b = as.integer(K$centers[i,3]*255))
+  }
+  
+  names(new_snapalette) = "new_snapalette"
+  
+  #plot palette or not
+  if(plot_palette){
+    plot.new()
+    print.palette(new_snapalette)
+  }
+  
   #plot picture or not
   if(plot_picture){
     
@@ -65,24 +84,9 @@ snap2palette = function(path,
     snap_segmented[,,3] = B
     
     # View the result
+    plot.new()
     grid.raster(snap_segmented)
     
-  }
-  
-  #make new snapalette
-  ## get hex
-  new_snapalette = rep(NA, n)
-  for(i in 1:n){
-    new_snapalette[i] = rgb2hex(r = as.integer(K$centers[i,1]*255), 
-                                g = as.integer(K$centers[i,2]*255), 
-                                b = as.integer(K$centers[i,3]*255))
-  }
-  
-  names(new_snapalette) = "new_snapalette"
-  
-  #plot palette or not
-  if(plot_palette){
-    print.palette(new_snapalette)
   }
   
   return(new_snapalette)
