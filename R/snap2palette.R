@@ -16,15 +16,15 @@ snap2palette = function(path,
                         plot_palette = TRUE){
   
   #check loading a png
-  if(file_ext(path) != "png" & file_ext(path) != "jpg"){
+  if(tools::file_ext(path) != "png" & tools::file_ext(path) != "jpg"){
     stop("path does not lead to a .png or .jpg")
   }
   
   #import file
-  if(file_ext(path) == "png"){
-    snap = readPNG(path)
+  if(tools::file_ext(path) == "png"){
+    snap = png::readPNG(path)
   } else {
-    snap = readJPEG(path)
+    snap = jpeg::readJPEG(path)
   }
   #split and average into n colours
   # reshape image into a data frame
@@ -43,9 +43,9 @@ snap2palette = function(path,
   ## get hex
   new_snapalette = rep(NA, n)
   for(i in 1:n){
-    new_snapalette[i] = rgb2hex(r = as.integer(K$centers[i,1]*255), 
-                                g = as.integer(K$centers[i,2]*255), 
-                                b = as.integer(K$centers[i,3]*255))
+    new_snapalette[i] = ggtern::rgb2hex(r = as.integer(K$centers[i,1]*255), 
+                                        g = as.integer(K$centers[i,2]*255), 
+                                        b = as.integer(K$centers[i,3]*255))
   }
   
   
@@ -89,7 +89,7 @@ snap2palette = function(path,
     
     # View the result
     plot.new()
-    grid.raster(snap_segmented)
+    grid::grid.raster(snap_segmented)
     
   }
   
