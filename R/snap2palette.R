@@ -16,7 +16,7 @@ snap2palette = function(path,
                         plot_palette = TRUE){
   
   #check loading a png
-  if(tools::file_ext(path) != "png" & tools::file_ext(path) != "jpg"){
+  if(tools::file_ext(path) != "png" & tools::file_ext(path) != "jpg" & tools::file_ext(path) != "jpeg"){
     stop("path does not lead to a .png or .jpg")
   }
   
