@@ -14,7 +14,7 @@ Usage
 -----
 
 ``` r
-library("snapalette")
+library(snapalette)
 # See all palettes
 names(snapalettes)
 #>  [1] "Mosaic"          "EspiritoSanta"   "ST_art"         
@@ -200,3 +200,21 @@ Make your own palette
 ---------------------
 
 If you have your own holiday snap that would make a great palette, you can use `snap2palette`. This takes a path to a png or jpeg and produces a palette from that picture.
+
+``` r
+par(mar=c(1,1,1,1))
+snap2palette("figure/lemon.jpeg", 5, plot_palette = FALSE, plot_picture = TRUE)
+```
+
+![](figure/lemon-1.png)
+
+    #> [1] "#d8c64d" "#10729a" "#157ea5" "#dfe6de" "#084e69"
+
+``` r
+par(mar=c(1,1,1,1))
+snap2palette("figure/lemon.jpeg", 5, plot_palette = TRUE, plot_picture = FALSE)
+```
+
+![](figure/lemonpalette-1.png)![](figure/lemonpalette-2.png)
+
+    #> [1] "#084e69" "#10729a" "#dfe6de" "#157ea5" "#d8c64d"
