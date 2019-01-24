@@ -208,7 +208,7 @@ snap2palette("figure/lemon.jpeg", 5, plot_palette = FALSE, plot_picture = TRUE)
 
 ![](figure/lemon-1.png)
 
-    #> [1] "#d8c64d" "#10729a" "#157ea5" "#dfe6de" "#084e69"
+    #> [1] "#157ea5" "#dfe6de" "#10729a" "#d8c64d" "#084e69"
 
 ``` r
 par(mar=c(1,1,1,1))
@@ -217,4 +217,4 @@ snap2palette("figure/lemon.jpeg", 5, plot_palette = TRUE, plot_picture = FALSE)
 
 ![](figure/lemonpalette-1.png)![](figure/lemonpalette-2.png)
 
-    #> [1] "#084e69" "#10729a" "#dfe6de" "#157ea5" "#d8c64d"
+    #> [1] "#d8c64d" "#157ea5" "#084e69" "#10729a" "#dfe6de"
