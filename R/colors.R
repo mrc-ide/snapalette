@@ -22,7 +22,8 @@ snapalettes <- list(
   Wales = c("#BFA3A3", "#F2E8Dc", "#484F66", "#A65C37", "#734040"),
   SzimplaKert = c("#265902", "#F2AE2E", "#F27507", "#732C02", "#F23005"),
   BudapestCitadel = c("#6F8ABF", "#D9C8B4", "#D99559", "#BF4E24", "#A63117"),
-  Ipanema = c("#1F5AA6", "#72B6F2", "#88C9F2", "#F2CB05", "#734002")
+  Ipanema = c("#1F5AA6", "#72B6F2", "#88C9F2", "#F2CB05", "#734002"),
+  Bouquet = c("#571673", "#8C5884", "#D3BFD9", "#AFBF30", "#667302")
 )
 
 

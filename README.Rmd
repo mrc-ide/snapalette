@@ -154,11 +154,18 @@ snapalette("SzimplaKert")
 snapalette("BudapestCitadel")
 ```
 
-### Ipanama
+### Ipanema
 
 ```{r, ipanema}
 snapalette("Ipanema")
 ```
+
+### Bouquet
+
+```{r, bouquet}
+snapalette("Bouquet")
+```
+
 
 ## Make your own palette
 

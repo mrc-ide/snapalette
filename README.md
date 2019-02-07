@@ -23,7 +23,7 @@ names(snapalettes)
 #> [10] "Camden"          "Venice"          "Barcelona"      
 #> [13] "Fjord"           "Stavanger"       "SweetShop"      
 #> [16] "Wales"           "SzimplaKert"     "BudapestCitadel"
-#> [19] "Ipanema"
+#> [19] "Ipanema"         "Bouquet"
 ```
 
 Palettes
@@ -188,13 +188,21 @@ snapalette("BudapestCitadel")
 
 ![](figure/citadel-1.png)
 
-### Ipanama
+### Ipanema
 
 ``` r
 snapalette("Ipanema")
 ```
 
 ![](figure/ipanema-1.png)
+
+### Bouquet
+
+``` r
+snapalette("Bouquet")
+```
+
+![](figure/bouquet-1.png)
 
 Make your own palette
 ---------------------
@@ -208,7 +216,7 @@ snap2palette("figure/lemon.jpeg", 5, plot_palette = FALSE, plot_picture = TRUE)
 
 ![](figure/lemon-1.png)
 
-    #> [1] "#157ea5" "#dfe6de" "#10729a" "#d8c64d" "#084e69"
+    #> [1] "#1379a1" "#08506c" "#dfd46d" "#dfe7e0" "#d0b831"
 
 ``` r
 par(mar=c(1,1,1,1))
@@ -217,4 +225,4 @@ snap2palette("figure/lemon.jpeg", 5, plot_palette = TRUE, plot_picture = FALSE)
 
 ![](figure/lemonpalette-1.png)![](figure/lemonpalette-2.png)
 
-    #> [1] "#d8c64d" "#157ea5" "#084e69" "#10729a" "#dfe6de"
+    #> [1] "#1379a1" "#074f6c" "#dfe7e0" "#d0b831" "#dfd46d"
