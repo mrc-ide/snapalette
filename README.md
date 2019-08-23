@@ -1,7 +1,8 @@
 Holiday snap palettes
 =====================
 
-Here are some pallettes I have made from my own holiday snaps. This is based on the excellent wespalette package and is for personal use only.
+Here are some pallettes I have made from my own holiday snaps. This is
+based on the excellent wespalette package and is for personal use only.
 
 Installation
 ------------
@@ -23,7 +24,8 @@ names(snapalettes)
 #> [10] "Camden"          "Venice"          "Barcelona"      
 #> [13] "Fjord"           "Stavanger"       "SweetShop"      
 #> [16] "Wales"           "SzimplaKert"     "BudapestCitadel"
-#> [19] "Ipanema"         "Bouquet"
+#> [19] "Ipanema"         "Bouquet"         "Pop"            
+#> [22] "Space"           "Ember"
 ```
 
 Palettes
@@ -204,10 +206,36 @@ snapalette("Bouquet")
 
 ![](figure/bouquet-1.png)
 
+### Pop
+
+``` r
+snapalette("Pop")
+```
+
+![](figure/pop-1.png)
+
+### Space
+
+``` r
+snapalette("Space")
+```
+
+![](figure/space-1.png)
+
+### Ember
+
+``` r
+snapalette("Ember")
+```
+
+![](figure/ember-1.png)
+
 Make your own palette
 ---------------------
 
-If you have your own holiday snap that would make a great palette, you can use `snap2palette`. This takes a path to a png or jpeg and produces a palette from that picture.
+If you have your own holiday snap that would make a great palette, you
+can use `snap2palette`. This takes a path to a png or jpeg and produces
+a palette from that picture.
 
 ``` r
 par(mar=c(1,1,1,1))
@@ -216,7 +244,7 @@ snap2palette("figure/lemon.jpeg", 5, plot_palette = FALSE, plot_picture = TRUE)
 
 ![](figure/lemon-1.png)
 
-    #> [1] "#1379a1" "#08506c" "#dfd46d" "#dfe7e0" "#d0b831"
+    #> [1] "#1379a1" "#dfd46d" "#d0b831" "#08506d" "#dfe7e0"
 
 ``` r
 par(mar=c(1,1,1,1))
@@ -225,4 +253,4 @@ snap2palette("figure/lemon.jpeg", 5, plot_palette = TRUE, plot_picture = FALSE)
 
 ![](figure/lemonpalette-1.png)![](figure/lemonpalette-2.png)
 
-    #> [1] "#1379a1" "#074f6c" "#dfe7e0" "#d0b831" "#dfd46d"
+    #> [1] "#dfd46d" "#dfe7e0" "#1379a1" "#08506d" "#d0b831"

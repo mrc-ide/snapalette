@@ -3,6 +3,7 @@
 #' Use \code{\link{snapalette}} to construct palettes of desired length.
 #'
 #' @export
+#' 
 snapalettes <- list(
   Mosaic = c("#204D8C", "#35648C", "#D9B777", "#BF9765", "#732720"),
   EspiritoSanta = c("#599DD9", "#24897E", "#F2D8A7", "#F2B035", "#F27649"),
@@ -23,7 +24,10 @@ snapalettes <- list(
   SzimplaKert = c("#265902", "#F2AE2E", "#F27507", "#732C02", "#F23005"),
   BudapestCitadel = c("#6F8ABF", "#D9C8B4", "#D99559", "#BF4E24", "#A63117"),
   Ipanema = c("#1F5AA6", "#72B6F2", "#88C9F2", "#F2CB05", "#734002"),
-  Bouquet = c("#571673", "#8C5884", "#D3BFD9", "#AFBF30", "#667302")
+  Bouquet = c("#571673", "#8C5884", "#D3BFD9", "#AFBF30", "#667302"),
+  Pop = c("#2a3950", "#464c5a", "#bdc6cb", "#e1e2e4", "#eebc25"),
+  Space = c("#0d1218", "#35374c", "#96698a", "#d9c5d4", "#8ef2f0"),
+  Ember = c("#2a3950", "#41436a", "#974063", "#f54768", "#ff9678")
 )
 
 

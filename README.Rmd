@@ -166,6 +166,23 @@ snapalette("Ipanema")
 snapalette("Bouquet")
 ```
 
+### Pop
+
+```{r, pop}
+snapalette("Pop")
+```
+
+### Space
+
+```{r, space}
+snapalette("Space")
+```
+
+### Ember
+
+```{r, ember}
+snapalette("Ember")
+```
 
 ## Make your own palette
 
