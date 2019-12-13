@@ -184,6 +184,24 @@ snapalette("Space")
 snapalette("Ember")
 ```
 
+### Tree5
+
+```{r, tree5}
+snapalette("Tree5")
+```
+
+### Tree3
+
+```{r, tree3}
+snapalette("Tree3")
+```
+
+### Charleston
+
+```{r, charleston}
+snapalette("Charleston")
+```
+
 ## Make your own palette
 
 If you have your own holiday snap that would make a great palette, you can use `snap2palette`. This takes a path to a png or jpeg and produces a palette from that picture.

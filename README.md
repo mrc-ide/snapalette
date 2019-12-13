@@ -25,7 +25,8 @@ names(snapalettes)
 #> [13] "Fjord"           "Stavanger"       "SweetShop"      
 #> [16] "Wales"           "SzimplaKert"     "BudapestCitadel"
 #> [19] "Ipanema"         "Bouquet"         "Pop"            
-#> [22] "Space"           "Ember"
+#> [22] "Space"           "Ember"           "Tree5"          
+#> [25] "Tree3"           "Charleston"
 ```
 
 Palettes
@@ -230,6 +231,30 @@ snapalette("Ember")
 
 ![](figure/ember-1.png)
 
+### Tree5
+
+``` r
+snapalette("Tree5")
+```
+
+![](figure/tree5-1.png)
+
+### Tree3
+
+``` r
+snapalette("Tree3")
+```
+
+![](figure/tree3-1.png)
+
+### Charleston
+
+``` r
+snapalette("Charleston")
+```
+
+![](figure/charleston-1.png)
+
 Make your own palette
 ---------------------
 
@@ -244,7 +269,7 @@ snap2palette("figure/lemon.jpeg", 5, plot_palette = FALSE, plot_picture = TRUE)
 
 ![](figure/lemon-1.png)
 
-    #> [1] "#1379a1" "#dfd46d" "#d0b831" "#08506d" "#dfe7e0"
+    #> [1] "#08506c" "#1379a1" "#dfe7e0" "#d0b831" "#dfd46d"
 
 ``` r
 par(mar=c(1,1,1,1))
@@ -253,4 +278,4 @@ snap2palette("figure/lemon.jpeg", 5, plot_palette = TRUE, plot_picture = FALSE)
 
 ![](figure/lemonpalette-1.png)![](figure/lemonpalette-2.png)
 
-    #> [1] "#dfd46d" "#dfe7e0" "#1379a1" "#08506d" "#d0b831"
+    #> [1] "#157ea5" "#d8c64d" "#084e69" "#10729a" "#dfe6de"
