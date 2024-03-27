@@ -26,7 +26,7 @@ names(snapalettes)
 #> [16] "Wales"           "SzimplaKert"     "BudapestCitadel"
 #> [19] "Ipanema"         "Bouquet"         "Pop"            
 #> [22] "Space"           "Ember"           "Tree5"          
-#> [25] "Tree3"           "Charleston"
+#> [25] "Tree3"           "Charleston"      "sph_building"
 ```
 
 Palettes
