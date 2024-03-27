@@ -255,6 +255,14 @@ snapalette("Charleston")
 
 ![](figure/charleston-1.png)
 
+### SPH building
+
+``` r
+snapalette("sph_building")
+```
+
+![](figure/sph_building-1.png)
+
 Make your own palette
 ---------------------
 
