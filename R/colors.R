@@ -33,7 +33,8 @@ snapalettes <- list(
   Charleston = c("#0D0D0D", "#435373", "#F2CA50", "#F2CEA2", "#F28444"),
   
   vimc_dis = c("#466EE7","#D19E5C","#EF4050","#E7BF44","#3EEFE1","#9573B5","#F3DFA2",
-               "#645CD1", "#C9D15C","#D15B8F","#6F3B3A","#EFE13E")
+               "#645CD1", "#C9D15C","#D15B8F","#6F3B3A","#EFE13E"),
+  sph_building = c("#232D46", "#033CAF", "#E8D9C4", "#B89591", "#5B403F")
 )
 
 
